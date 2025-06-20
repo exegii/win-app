@@ -1,0 +1,12 @@
+<Window x:Class="CustomWireGuardLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WireGuard Launcher" Height="150" Width="400">
+    <StackPanel Margin="10">
+        <ComboBox x:Name="ConfigBox" MinWidth="200" Margin="0,0,0,10"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <Button Content="Connect" Width="80" Margin="0,0,10,0" Click="Connect_Click"/>
+            <Button Content="Disconnect" Width="80" Click="Disconnect_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
